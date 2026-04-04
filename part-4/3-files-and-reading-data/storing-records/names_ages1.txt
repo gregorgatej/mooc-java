@@ -1,0 +1,4 @@
+valentina,40
+tomaz,33
+nejc,80
+barbara,15

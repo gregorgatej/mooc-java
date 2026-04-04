@@ -1,0 +1,5 @@
+tine,2
+veronika,90
+niko,22
+leopold,58,
+mirjam,35

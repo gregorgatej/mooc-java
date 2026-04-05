@@ -1,12 +1,12 @@
 import java.util.Scanner;
 import java.util.ArrayList;
 
-public class Books {
+public class Main {
     private Scanner scanner = new Scanner(System.in);
     private ArrayList<Book> books = new ArrayList<>();
 
     public static void main(String[] args) {
-        Books app = new Books();
+        Main app = new Main();
         app.setBookList();
         app.printBookList();
     }

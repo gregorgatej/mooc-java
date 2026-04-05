@@ -24,7 +24,7 @@ public class StoringRecords {
 
     public static ArrayList<Person> readRecordsFromFile(String file) {
         ArrayList<Person> persons = new ArrayList<>();
-        String filepath = "part-4/3-files-and-reading-data/storing-records/" + file;
+        String filepath = "part4/files_and_reading_data/storing_records/src/main/resources/" + file;
 
         try (Scanner scanner = new Scanner(Paths.get(filepath))) {
             while (scanner.hasNextLine()) {

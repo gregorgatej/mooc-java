@@ -14,3 +14,9 @@ If using SDKMAN:
 sdk install java 25-open
 sdk env
 ```
+
+## Acknowledgements
+
+Partly inspired by community solutions from:
+- https://github.com/P4r1nc3/Java_Programming_MOOC_I
+- https://github.com/LoganBain/mooc-java-programming-ii

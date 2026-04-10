@@ -1,0 +1,5 @@
+vesi:water
+monkey:apina
+alla oleva:below
+talo:house
+olut:beer

@@ -1,11 +1,23 @@
 import javafx.application.Application;
 import javafx.stage.Stage;
+import javafx.scene.Scene;
+import javafx.scene.control.Button;
+import javafx.scene.layout.FlowPane;
 
 public class MyFirstApplication extends Application {
 
     @Override
     public void start(Stage window) {
         window.setTitle("Hello!");
+
+        Button button = new Button("This is a button");
+
+        FlowPane componentGroup = new FlowPane();
+        componentGroup.getChildren().add(button);
+
+        Scene scene = new Scene(componentGroup);
+
+        window.setScene(scene);
         window.show();
     }
 
